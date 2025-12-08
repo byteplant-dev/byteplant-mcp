@@ -1,7 +1,7 @@
 {
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.byteplant-dev/byteplant-mcp",
-  "description": "Email, Phone Number, and Address Validation for the Model Context Protocol (MCP)",
-  "status": "active",
+  "description": "An MCP server that provides Email, Phone and Address Validation Services from Byteplant",
   "repository": {
     "url": "https://github.com/byteplant-dev/byteplant-mcp",
     "source": "github"
@@ -9,32 +9,32 @@
   "version": "1.0.0",
   "packages": [
     {
-      "registry_type": "pypi",
+      "registryType": "pypi",
       "identifier": "byteplant-mcp",
       "version": "1.0.0",
       "transport": {
         "type": "stdio"
       },
-      "environment_variables": [
+      "environmentVariables": [
         {
           "description": "Email Validator API Token",
-          "is_required": false,
+          "isRequired": false,
           "format": "string",
-          "is_secret": true,
+          "isSecret": true,
           "name": "EV_TOKEN"
         },
         {
           "description": "Address Validator API Token",
-          "is_required": false,
+          "isRequired": false,
           "format": "string",
-          "is_secret": true,
+          "isSecret": true,
           "name": "AV_TOKEN"
         },
         {
           "description": "Phone Validator API Token",
-          "is_required": false,
+          "isRequired": false,
           "format": "string",
-          "is_secret": true,
+          "isSecret": true,
           "name": "PV_TOKEN"
         }
       ]
