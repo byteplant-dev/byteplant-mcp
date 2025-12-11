@@ -1,6 +1,6 @@
 [project]
 name = "byteplant-mcp"
-version = "1.0.0"
+version = "1.0.0.post2"
 description = "Byteplant's Email Validator, Phone Validator and Address Validator MCP Server"
 readme = "README.md"
 requires-python = ">=3.12"

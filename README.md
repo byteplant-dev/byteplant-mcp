@@ -141,7 +141,7 @@ https://api.phone-validator.net/api/v2/verify?PhoneNumber=09874-322466&CountryCo
 
 ### 3 `validate_address`
 
-## Real-Time Phone Validation API
+## Real-Time Address Validation API
 
 The Address Validation API returns the deliverability status and detailed information for the address that is provided as input.
 

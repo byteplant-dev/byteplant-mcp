@@ -6,7 +6,7 @@
     "url": "https://github.com/byteplant-dev/byteplant-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.0.post2",
   "packages": [
     {
       "registryType": "pypi",
